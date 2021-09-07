@@ -26,7 +26,7 @@ public class Stock {
 	@Column(name="PURCHASEPRICE")
 	private int purchasePrice; 
 	
-	@Temporal(TemporalType.TIMESTAMP)
+	//@Temporal(TemporalType.TIMESTAMP)
 	@Column(name="PURCHASEDATE")
 	private Date purchaseDate;
 	
